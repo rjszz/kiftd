@@ -10,7 +10,7 @@
 <meta name="renderer" content="webkit">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>KIFT</title>
+<title>RJSZZ</title>
 <!-- Bootstrap基本框架 -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- 全局样式 -->
@@ -20,7 +20,7 @@
 <!-- 音乐播放器插件 -->
 <link rel="stylesheet" href="css/APlayer.min.css">
 <!-- 页面图标 -->
-<link rel="icon" type="image/x-icon" href="css/icon.png" />
+<link rel="icon" type="image/x-icon" href="css/archlinux.png" />
 <!-- 对旧浏览器的支持部分... -->
 <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
@@ -28,21 +28,21 @@
 <![endif]-->
 </head>
 
-<body>
+<body style="background: url(ArchLinux.png) no-repeat top left;background- size:cover;background-attachment: fixed;background-size: 100%;">
 	<!-- 显示主体 -->
 	<div class="container">
 		<!-- 页面标题栏 -->
 		<div class="row">
 			<div class="col-md-12">
 				<div class="titlebox">
-					<span class="titletext"> <!-- 主标题，如需修改请替换后方标签内的文字 --> <em>
-							青阳网络文件传输系统 <small> <!-- 副标题，如需修改请替换后方标签内的文字 --> <span
-								class="graytext">KIFT</span>
+					<span class="titletext" style="color: #bdd6d8"> <!-- 主标题，如需修改请替换后方标签内的文字 --> <em>
+							RJSZZ <small> <!-- 副标题，如需修改请替换后方标签内的文字 --> <span
+								class="graytext">~v~</span>
 						</small>
 					</em>
 					</span> <span id="tb" class="rightbtn hidden-xs"></span>
 					<button class="btn btn-link rightbtn hidden-xs"
-						onclick="refreshFolderView()">
+						onclick="refreshFolderView()" style="color: #bdd6d8">
 						刷新 <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
 					</button>
 				</div>
@@ -54,14 +54,14 @@
 			<div class="col-md-12">
 				<p class="subtitle visible-xs-block">
 					<span id="tb2"></span>
-					<button class="btn btn-link" onclick="refreshFolderView()">
+					<button class="btn btn-link" onclick="refreshFolderView()" style="color: #bdd6d8">
 						刷新 <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
 					</button>
 				</p>
-				<p class="subtitle">
+				<p class="subtitle" style="color: #b799d1">
 					文件同步时间：<span id="publishTime"></span>
 				</p>
-				<p class="subtitle">
+				<p class="subtitle" style="color: #b799d1">
 					OS：<span id="serverOS"><span class="graytext">加载中...</span></span>
 				</p>
 				<div id="filetable" class="panel panel-default" unselectable="on"
